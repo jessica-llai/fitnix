@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+{% import 'bootstrap/wtf.html' as wtf %}
+<head>
+    <meta charset="UTF-8">
+    <title>fitness</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='mystyles.css')}}">
+
+</head>
+<body>
+<h1> Welcome to our Fitness Centre </h1>
+<p>Do you want to energise your new day?</p>
+
+{{wtf.quick_form(form)}}
+
+
+
+
+
+</body>
+</html>
